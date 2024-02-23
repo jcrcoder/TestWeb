@@ -1,8 +1,49 @@
-<HTML>
-<Title>
-Test Web page
-</Title>
-<body>
-This is big idea content
-</body>
-</HTML>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocMeUp - Technology Solutions</title>
+    <meta name="description" content="DocMeUp provides innovative technology solutions to empower your business.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      @media only screen and (max-width: 600px) {
+        header h1 {
+          font-size: 2.5rem;
+          /* Smaller font size for mobile */
+        }
+      }
+
+    </style>
+  </head>
+
+  <body >
+  <div class="bg-gray-100 text-gray-800 h-screen flex flex-col">
+  
+    <!-- Hero Section with Background Image and Animation -->
+    <header class="text-center bg-blue-600 text-white p-12 relative overflow-hidden">
+      <div class="absolute inset-0 opacity-20" style="background-image: url('header-bg.jpg');"></div>
+      <div class="relative">
+        <h1 class="text-4xl font-bold mb-3">DocMeUp</h1>
+        <p class="mb-5">Innovative Medical Solutions</p>
+
+      </div>
+    </header>
+
+    <section class="flex-1 overflow-auto text-center p-12 h-96">
+      <h2 class="text-5xl font-bold mb-4  animate-bounce ">Coming Soon</h2>
+      <p>Exciting new features and services are on the way!</p>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center p-6">
+
+      <p>DocMeUp Medical Solutions</p>
+      <p>info@docmeup.com | +57 317 567 890</p>
+      <p>Medellin, Colombia</p>
+      © 2024 DocMeUp Technology Solutions
+    </footer>
+    </div>
+  </body>
+
+</html>
